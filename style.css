@@ -8,6 +8,7 @@
 body{
   font-family: 'Manrope', sans-serif;
   background: #0d0f12;
+  overflow: hidden;
 }
 /*End Setting Of The Page*/
 
