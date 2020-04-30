@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap');
+/* Start Setting Of The Page */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Manrope', sans-serif;
+  background: #0d0f12;
+}
+/*End Setting Of The Page*/
+
+/* Start Left Form */
+.sign-in-container form{
+  color: #FFF;
+  width: 40%;
+}
+.sign-in-container form img{
+  width: 340px;
+  padding: 20px;
+  margin: 20px 20px 10px 105px;
+}
+.sign-in-container .input-form{
+  margin: 20px 20px 20px 110px;
+}
+.sign-in-container .input-form label{
+  display: block;
+  font-size: 14px;
+}
+.sign-in-container .input-form input{
+  background: transparent;
+  border: 1px solid #56575a;
+  width: 330px;
+  height: 40px;
+  color: #fff;
+  padding: 15px;
+  border-radius: 2px;
+}
+.sign-in-container button{
+  background: #0084bd; 
+  color: #fff;
+  border: transparent;
+  border-radius: 2px;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  width: 330px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.sign-in-container .link .forget-pwd,.sign-in-container .link .sign-in-company{
+  font-size: 15px;
+  color: #26a0c9;
+  text-decoration: none;
+  margin-bottom: 15px;
+  
+}
+.sign-in-container .link .forget-pwd{
+  display: block;
+  margin-left: 15%;
+}
+.sign-in-container .link .forget-pwd:hover{
+  text-decoration: underline;
+}
+.sign-in-container .link .sign-in-company{
+  margin-left: 12%;
+}
+.sign-in-container .link .sign-in-company:hover{
+  text-decoration: underline;
+}
+.sign-in-container hr {
+  width: 300px;
+  margin: 20px 20px 35px 9%;
+  border: 1px solid #36373a; 
+}
+
+.create-account a{
+  background: #36373a;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #36373a;
+  border-radius: 2px;
+  margin-left: 11%;
+  padding: 10px 60px 10px 60px;
+}
+.footer{
+  margin-top: 40px;
+  color: gray;
+}
+.footer p:first-child , .footer p:last-child{
+  font-size: 14px;
+  margin-left: 6%;
+}
+.footer a:nth-child(1){
+  color: gray;
+  margin-left: 8%;
+}
+.footer a:nth-child(2){
+  color: gray;
+}
+/* End Left Form */
+/* Start Right Offer Design */
+.offer-container {
+  background: #000;
+  width: 60%;
+  height: 660px;
+  position: relative;
+  bottom: 650px;
+  float: right;
+  padding: 50px;
+  margin-left: 10px;
+}
+.free-april-hash img{
+  width: 500px;
+  margin-left: 15% ;
+  margin-top: 20px;
+}
+.stay-at_home img{
+  width: 360px;
+  margin-left: 25% ;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.offer-container a{
+  position: relative;
+  left: 38%;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  background-image: linear-gradient(to right, #ec0985 , #f05330);
+  padding: 18px 50px;
+  border-radius: 3px;
+}
+.free-april-main img{
+  width: 750px;
+  
+}
+
+/* End Right Offer Design*/
